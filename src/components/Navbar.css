@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-nav {
+  box-shadow: 0px 5px 10px 0px #aaa;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  opacity: 0.85;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  border-radius: 0 0 15px 15px;
+}
+
+.ulist {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.ullist {
+  padding: 13px 25px 13px 25px;
+  justify-content: center;
+  font-family: "Raleway", serif !important;
+  font-size: 15pt;
+
+}
+
+.ullistlink {
+  text-decoration: none;
+  color: #000;
+}
+
+.ullist::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  border-radius: 16px;
+  transition: width .5s ease, background-color .5s ease;
+  background: transparent;
+}
+
+.iconspan:hover {
+  color: #c95df3;
+}
+
+.ullist:hover::after {
+  width: 100%;
+  background-color: #c95df3;
+
+}
+
+.ullistlink:hover,
+.ullistlink:active {
+
+  color: #c95df3;
+
+}
+
+.iconspan {
+  padding: 2px;
+  margin: 25px;
+  cursor: pointer;
+}
+
+.namespan {
+  font-size: xx-large;
+  font-family: "Raleway", serif !important;
+  margin: 20px;
+}
+
+.ul-div {
+  margin-left: 25px;
+}

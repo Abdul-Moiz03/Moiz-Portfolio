@@ -1,0 +1,25 @@
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -25px;
+}
+
+.main-headind {
+    font-size: x-large;
+    font-family: "Raleway", serif !important;
+    margin-top: 50px;
+    line-height: 40px;
+}
+
+.card-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}

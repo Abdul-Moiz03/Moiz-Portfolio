@@ -1,0 +1,11 @@
+ /* .home-section {
+        position: relative;
+        z-index: -1;
+        background-image: linear-gradient( to bottom left,
+        rgba(17, 16, 16, 0.678),
+        rgba(12, 10, 22, 0.863));
+        background-image: var(--image-gradient),url(./home-bg.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+   
+      } */
