@@ -1,8 +1,8 @@
 import React from "react";
 import "./project.css";
 import ProjectCards from "./ProjectCards";
-import image1 from "./Utils/ytcolne.png";
-import image2 from "./Utils/BSS.png";
+import image1 from "../Utils/ytcolne.png";
+import image2 from "../Utils/BSS.png";
 const Projects = () => {
   return (
     <div className="main-div">

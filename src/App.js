@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Displaypage from "./components/Displaypage";
-import Projects from "./components/Projects";
+import Navbar from "./components/Pages/Navbar";
+import Displaypage from "./components/Pages/Displaypage";
+import Projects from "./components/Pages/Projects";
 
 const App = () => {
   return (

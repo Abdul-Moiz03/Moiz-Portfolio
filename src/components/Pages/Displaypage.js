@@ -1,7 +1,7 @@
 import React from "react";
 import TypeWritter from "./TypeWritter";
 import "./Displaypage.css";
-import image1 from "./Utils/home-main.svg";
+import image1 from "../Utils/home-main.svg";
 import Button from "@mui/material/Button";
 import Projects from "./Projects";
 const Displaypage = () => {
